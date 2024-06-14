@@ -1,64 +1,59 @@
 ﻿using APIPostgreSQL.Entidades;
-using Microsoft.AspNetCore.Http.HttpResults;
 using NHibernate;
-using NHibernate.SqlCommand;
 
 namespace APIPostgreSQL.Service
 {
-    public class ClienteService
+    public class PedidosService
     {
         private readonly ISessionFactory session;
-        public ClienteService(ISessionFactory session)
+        public PedidosService(ISessionFactory session)
         {
             this.session = session;
         }
 
-
-        public bool Criar(Cliente cliente)
+        public bool Criar(Pedidos pedidos)
         {
             using var sessao = session.OpenSession();
             using var transaction = sessao.BeginTransaction();
-            sessao.Save(cliente);
+            sessao.Save(pedidos);
             transaction.Commit();
             return true;
         }
-
-        public bool Editar(Cliente cliente)
+        public bool Editar(Pedidos pedidos)
         {
             using var sessao = session.OpenSession();
             using var transaction = sessao.BeginTransaction();
-            sessao.Merge(cliente);
+            sessao.Merge(pedidos);
             transaction.Commit();
             return true;
         }
-
-        public Cliente Excluir(int id)
+        public Pedidos Excluir(int id_pedido)
         {
             using var sessao = session.OpenSession();
             using var transaction = sessao.BeginTransaction();
-            var Cliente = sessao.Query<Cliente>().Where(x => x.Id == id).FirstOrDefault();
-            if (Cliente == null)
+            var Pedidos = sessao.Query<Pedidos>().Where(x => x.Id == id_pedido).FirstOrDefault();
+            if (Pedidos == null)
             {
                 Console.WriteLine("Cliente não identificado");
                 return null;
             }
-            sessao.Delete(Cliente);
+            sessao.Delete(Pedidos);
             transaction.Commit();
-            return Cliente;
+            return Pedidos;
 
         }
-        public virtual List<Cliente> Listar()
+        public virtual List<Pedidos> Listar()
         {
             using var sessao = session.OpenSession();
-            var Clientes = sessao.Query<Cliente>().ToList();
-            return Clientes;
+            var Pedidos = sessao.Query<Pedidos>().ToList();
+            return Pedidos;
         }
 
-        public virtual List<Cliente> Listar(string nome)
+        public virtual List<Pedidos> Listar(int id)
         {
             using var sessao = session.OpenSession();
-            var Cliente = sessao.Query<Cliente>().Where(x => x.Nome.Contains(nome)).OrderBy(x => x.Nome).ToList();
-            return Cliente;
+            var Pedidos = sessao.Query<Pedidos>().Where(x => x.Id == (id)).OrderBy(x => x.Id_Pedido).ToList();
+            return Pedidos;
         }
     }
 }

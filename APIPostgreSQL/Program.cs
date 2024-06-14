@@ -14,6 +14,7 @@ namespace APIPostgreSQL
 
             // Add services to the container.
             builder.Services.AddScoped<ClienteService>();//Registrar serviço
+            builder.Services.AddScoped<PedidosService>();//Registrar serviço
             builder.Services.AddControllers();
             //configuração nhibernate
             builder.Services.AddSingleton<ISessionFactory>((s) =>

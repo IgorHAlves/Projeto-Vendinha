@@ -3,23 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\apipostgresql.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\apipostgresql.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\mapping\\cliente.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\mapping\\cliente.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\mapping\\pedidos.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\mapping\\pedidos.hbm.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\entidades\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\entidades\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\controllers\\pedidoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\controllers\\pedidoscontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Igor\\AppData\\Local\\SourceServer\\305a952cd478c1e4a7952ed85e64869649e0aaeea5cd7fd471a1ff78da842a77\\src\\NHibernate\\Impl\\SessionFactoryImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\service\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|c:\\users\\igor\\source\\repos\\apipostgresql\\apipostgresql\\service\\pedidosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{495A653F-A473-4F17-AE2C-31C8F013FB5C}|APIPostgreSQL\\APIPostgreSQL.csproj|solutionrelative:apipostgresql\\service\\pedidosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,62 +42,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SessionFactoryImpl.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\AppData\\Local\\SourceServer\\305a952cd478c1e4a7952ed85e64869649e0aaeea5cd7fd471a1ff78da842a77\\src\\NHibernate\\Impl\\SessionFactoryImpl.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\305a952cd478c1e4a7952ed85e64869649e0aaeea5cd7fd471a1ff78da842a77\\src\\NHibernate\\Impl\\SessionFactoryImpl.cs",
-              "ToolTip": "C:\\Users\\Igor\\AppData\\Local\\SourceServer\\305a952cd478c1e4a7952ed85e64869649e0aaeea5cd7fd471a1ff78da842a77\\src\\NHibernate\\Impl\\SessionFactoryImpl.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\305a952cd478c1e4a7952ed85e64869649e0aaeea5cd7fd471a1ff78da842a77\\src\\NHibernate\\Impl\\SessionFactoryImpl.cs",
-              "ViewState": "AQIAAEQCAAAAAAAAAAAswGICAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:40:24.794Z",
+              "DocumentIndex": 0,
+              "Title": "APIPostgreSQL.http",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\APIPostgreSQL.http",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\APIPostgreSQL.http",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\APIPostgreSQL.http",
+              "RelativeToolTip": "APIPostgreSQL\\APIPostgreSQL.http",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-14T16:46:07.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Service\\ClienteService.cs",
-              "RelativeDocumentMoniker": "APIPostgreSQL\\Service\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Service\\ClienteService.cs",
-              "RelativeToolTip": "APIPostgreSQL\\Service\\ClienteService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAIAywBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:44:39.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Program.cs",
               "RelativeDocumentMoniker": "APIPostgreSQL\\Program.cs",
               "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Program.cs",
               "RelativeToolTip": "APIPostgreSQL\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIA2wCQAAAAhAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:42:59.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T16:35:23.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cliente.hbm.xml",
-              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Mapping\\Cliente.hbm.xml",
-              "RelativeDocumentMoniker": "APIPostgreSQL\\Mapping\\Cliente.hbm.xml",
-              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Mapping\\Cliente.hbm.xml",
-              "RelativeToolTip": "APIPostgreSQL\\Mapping\\Cliente.hbm.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Title": "Pedidos.hbm.xml",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Mapping\\Pedidos.hbm.xml",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\Mapping\\Pedidos.hbm.xml",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Mapping\\Pedidos.hbm.xml",
+              "RelativeToolTip": "APIPostgreSQL\\Mapping\\Pedidos.hbm.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-13T20:59:44.951Z",
+              "WhenOpened": "2024-06-14T16:33:02.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Entidades\\Pedidos.cs",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\Entidades\\Pedidos.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Entidades\\Pedidos.cs",
+              "RelativeToolTip": "APIPostgreSQL\\Entidades\\Pedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:06:02.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidosService.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Service\\PedidosService.cs",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\Service\\PedidosService.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Service\\PedidosService.cs",
+              "RelativeToolTip": "APIPostgreSQL\\Service\\PedidosService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:25:08.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidosController .cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Controllers\\PedidosController .cs",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\Controllers\\PedidosController .cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Controllers\\PedidosController .cs",
+              "RelativeToolTip": "APIPostgreSQL\\Controllers\\PedidosController .cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwDEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:22:54.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "APIPostgreSQL\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "APIPostgreSQL\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:22:54.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\Igor\\source\\repos\\APIPostgreSQL\\APIPostgreSQL\\Entidades\\Cliente.cs",
               "RelativeDocumentMoniker": "APIPostgreSQL\\Entidades\\Cliente.cs",
@@ -92,8 +140,7 @@
               "RelativeToolTip": "APIPostgreSQL\\Entidades\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:46:06.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:46:06.888Z"
             }
           ]
         }

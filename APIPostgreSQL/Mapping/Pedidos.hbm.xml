@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="APIPostgreSQL.Entidades.Pedidos, APIPostgreSQL" table="pedidos">
+
+		<id name ="Id_Pedido" column="id_pedido">
+			<generator class="native"/>
+		</id>
+		<property name ="Id" column="id"/>
+		<property name ="Valor" column="valor"/>
+		<property name ="Situacao" column="situacao" />
+		<property name ="DataCriacao" column="datacriacao" />
+		<property name ="DataPagamento" column="datapagamento" />
+		<property name ="Descricao" column="descricao" />
+
+	</class>
+</hibernate-mapping>
