@@ -49,3 +49,4 @@ C:\Users\Igor\source\repos\APIPostgreSQL\APIPostgreSQL\obj\Debug\net8.0\APIPostg
 C:\Users\Igor\source\repos\APIPostgreSQL\APIPostgreSQL\obj\Debug\net8.0\APIPostgreSQL.genruntimeconfig.cache
 C:\Users\Igor\source\repos\APIPostgreSQL\APIPostgreSQL\obj\Debug\net8.0\ref\APIPostgreSQL.dll
 C:\Users\Igor\source\repos\APIPostgreSQL\APIPostgreSQL\bin\Debug\net8.0\Mapping\Cliente.hbm.xml
+C:\Users\Igor\source\repos\APIPostgreSQL\APIPostgreSQL\obj\Debug\net8.0\APIPostgreSQL.sourcelink.json
