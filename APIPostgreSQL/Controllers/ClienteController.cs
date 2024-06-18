@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace APIPostgreSQL.Controller
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     public class ClienteController : ControllerBase
     {
         private readonly ClienteService clienteService;
@@ -12,13 +12,13 @@ namespace APIPostgreSQL.Controller
         {
             this.clienteService = clienteService;
         }
-        [HttpGet]
+        [HttpGet("cliente")]
         public IActionResult Listar(string nome)
         {
             var clientes = string.IsNullOrEmpty(nome) ? clienteService.Listar() : clienteService.Listar(nome);
             return Ok(clientes);
         }
-        [HttpPost]
+        [HttpPost("cliente")]
         public IActionResult Criar(Cliente cliente)
         {
             if (cliente == null)
@@ -36,7 +36,7 @@ namespace APIPostgreSQL.Controller
             }
         }
 
-        [HttpPut]
+        [HttpPut("cliente")]
         public IActionResult Editar(Cliente cliente)
         {
             if (cliente == null)
@@ -53,10 +53,10 @@ namespace APIPostgreSQL.Controller
                 return UnprocessableEntity(cliente);
             }
         }
-        [HttpDelete("{Id}")]
-        public IActionResult Excluir(int Id)
+        [HttpDelete("cliente/{id}")]
+        public IActionResult Excluir(int id)
         {
-            var cliente = clienteService.Excluir(Id);
+            var cliente = clienteService.Excluir(id);
             if (cliente == null)
             {
                 return NotFound();

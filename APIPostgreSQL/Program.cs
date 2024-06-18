@@ -30,6 +30,13 @@ namespace APIPostgreSQL
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            //configuração cors para integrar a api com javascript
+            //builder.Services.AddCors(
+            //b => b.AddDefaultPolicy(c =>
+            //c.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
+            //    )
+            //);
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -39,10 +46,11 @@ namespace APIPostgreSQL
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
+            //app.UseCors();
 
             app.MapControllers();
 

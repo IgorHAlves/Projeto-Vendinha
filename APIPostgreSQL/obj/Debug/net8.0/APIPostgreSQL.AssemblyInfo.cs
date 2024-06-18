@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIPostgreSQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2e9027d8e75e6a869fa007a03eddd1f2af96fd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da677242a10486363793d02019047a552ad1c6e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIPostgreSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIPostgreSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
