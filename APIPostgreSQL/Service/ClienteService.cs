@@ -1,7 +1,9 @@
 ﻿using APIPostgreSQL.Entidades;
 using Microsoft.AspNetCore.Http.HttpResults;
 using NHibernate;
+using NHibernate.Linq;
 using NHibernate.SqlCommand;
+using System.Collections.Immutable;
 
 namespace APIPostgreSQL.Service
 {
@@ -47,18 +49,42 @@ namespace APIPostgreSQL.Service
             return Cliente;
 
         }
-        public virtual List<Cliente> Listar()
+        public virtual List<ClienteComPedidos> Listar()
         {
             using var sessao = session.OpenSession();
-            var Clientes = sessao.Query<Cliente>().ToList();
-            return Clientes;
+            {
+                var query = from cliente in sessao.Query<Cliente>()
+                            join pedido in sessao.Query<Pedidos>().Where(x => x.Situacao == "Não pago") on cliente.Id equals pedido.Id into pedidosGroup
+                            from pedido in pedidosGroup.DefaultIfEmpty()
+                            group pedido by cliente into clienteGroup
+                            select new ClienteComPedidos
+                            {
+                                Cliente = clienteGroup.Key,
+                                Divida = clienteGroup.Sum(p => p != null ? p.Valor : 0)
+                            };
+
+                return query.ToList();
+            }
         }
 
-        public virtual List<Cliente> Listar(string nome)
+        public virtual List<ClienteComPedidos> Listar(string nome)
         {
             using var sessao = session.OpenSession();
-            var Cliente = sessao.Query<Cliente>().Where(x => x.Nome.Contains(nome)).OrderBy(x => x.Nome).ToList();
-            return Cliente;
+            {
+                var query = from cliente in sessao.Query<Cliente>().Where(x => x.Nome == nome)
+                            join pedido in sessao.Query<Pedidos>().Where(x => x.Situacao == "Não pago") on cliente.Id equals pedido.Id into pedidosGroup
+                            from pedido in pedidosGroup.DefaultIfEmpty()
+                            group pedido by cliente into clienteGroup
+                            select new ClienteComPedidos
+                            {
+                                Cliente = clienteGroup.Key,
+                                Divida = clienteGroup.Sum(p => p != null ? p.Valor : 0)
+                            };
+
+                return query.ToList();
+            }
         }
+
+
     }
 }

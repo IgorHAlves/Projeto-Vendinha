@@ -18,6 +18,7 @@ namespace APIPostgreSQL.Controller
             var clientes = string.IsNullOrEmpty(nome) ? clienteService.Listar() : clienteService.Listar(nome);
             return Ok(clientes);
         }
+
         [HttpPost("cliente")]
         public IActionResult Criar(Cliente cliente)
         {
