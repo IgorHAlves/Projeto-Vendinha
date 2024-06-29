@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumo de API</title>
+</head>
+<body>
+    <h1>Vendinha Interfocus</h1>
+    <div class="container">
+        <ul>
+            <a href="../clientes/clientes.html" target="_self" rel="externo"><li>Clientes</li></a>
+            <li>Pedidos</li>
+            <li>Produtos</li>
+        </ul>
+        <div id="pedidos">
+            <table id="TabelaPedidos">
+                <thead>
+                    <tr>
+                        <th>Id Pedido</th>
+                        <th>Id Cliente</th>
+                        <th>Valor</th>
+                        <th>Situação</th>
+                        <th>Data do Pedido</th>
+                        <th>Data do Pagamento</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let tableBody = document.querySelector("#TabelaPedidos tbody")
+        fetch("https://localhost:7210/api/pedido").then(response => {
+            response.json().then(dados => {
+                dados.forEach(pedido => {     
+                    let row = document.createElement('tr');
+                    row.innerHTML= `
+                        <td>${pedido.id_Pedido}</td>
+                        <td>${pedido.id}</td>
+                        <td>${pedido.valor}</td>
+                        <td>${pedido.situacao}</td>
+                        <td>${new Date(pedido.dataCriacao).toLocaleDateString()}</td>
+                        <td>${new Date(pedido.dataPagamento).toLocaleDateString()}</td>
+                        <td>${pedido.descricao}</td>
+                    `;
+                    tableBody.appendChild(row);
+                })
+            })
+        });
+    </script>
+    <button><a href="adicionar/adicionarpedido.html" target="_self">Adicionar Novo Pedido</a></button>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+[{"cliente":{"id":1,"nome":"jose","dataNascimento":"1998-05-29T00:00:00","email":"jose@email.com"},
+"divida":20},{"cliente":{"id":2,"nome":"igor","dataNascimento":"2024-06-13T00:00:00","email":"igor@email.com"},"divida":0},{"cliente":{"id":3,"nome":"jose","dataNascimento":"1966-12-12T00:00:00","email":"maria@email.com"},"divida":0},{"cliente":{"id":5,"nome":"igor","dataNascimento":"1999-04-22T00:00:00","email":"igor@email.com"},"divida":0}]

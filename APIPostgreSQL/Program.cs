@@ -3,7 +3,6 @@ using APIPostgreSQL.Entidades;
 using APIPostgreSQL.Service;
 using NHibernate;
 using NHibernate.Cfg;
-
 namespace APIPostgreSQL
 {
     public class Program
@@ -31,11 +30,11 @@ namespace APIPostgreSQL
             builder.Services.AddSwaggerGen();
 
             //configuração cors para integrar a api com javascript
-            //builder.Services.AddCors(
-            //b => b.AddDefaultPolicy(c =>
-            //c.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
-            //    )
-            //);
+            builder.Services.AddCors(
+            b => b.AddDefaultPolicy(c =>
+            c.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin()
+                )
+            );
 
             var app = builder.Build();
 
@@ -50,7 +49,7 @@ namespace APIPostgreSQL
 
             app.UseAuthorization();
 
-            //app.UseCors();
+            app.UseCors();
 
             app.MapControllers();
 
